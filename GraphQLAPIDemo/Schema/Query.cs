@@ -65,7 +65,7 @@ namespace GraphQLAPIDemo.Schema
         public async Task <CourseType> GetCourseByIdAsync(Guid id)
         {
 
-           // await Task.Delay(1000);
+            await Task.Delay(1000);
 
             CourseType course = _courseFaker.Generate();
 
