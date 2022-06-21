@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace GraphQLAPIDemo.Schema
+namespace GraphQLAPIDemo.Schema.Queries
 {
-    public class InstructorType
+    public class StudentType
     {
         public Guid Id { get; set; }
 
@@ -13,6 +13,7 @@ namespace GraphQLAPIDemo.Schema
 
         public string LastName { get; set; }
 
-        public double Salary { get; set; }
+       // [GraphQLName("gpa")]
+        public double GPA { get; set; }
     }
 }

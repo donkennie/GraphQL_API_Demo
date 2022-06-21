@@ -1,4 +1,6 @@
 using GraphQLAPIDemo.Schema;
+using GraphQLAPIDemo.Schema.Mutations;
+using GraphQLAPIDemo.Schema.Queries;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -28,7 +30,9 @@ namespace GraphQLAPIDemo
         public void ConfigureServices(IServiceCollection services)
         {
 
-            services.AddGraphQLServer().AddQueryType<Query>();
+            services.AddGraphQLServer()
+                .AddQueryType<Query>()
+                .AddMutationType<Mutation>();
 
            /* services.AddControllers();
             services.AddSwaggerGen(c =>
