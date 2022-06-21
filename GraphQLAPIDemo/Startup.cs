@@ -1,6 +1,7 @@
 using GraphQLAPIDemo.Schema;
 using GraphQLAPIDemo.Schema.Mutations;
 using GraphQLAPIDemo.Schema.Queries;
+using GraphQLAPIDemo.Schema.Subscriptions;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -32,7 +33,10 @@ namespace GraphQLAPIDemo
 
             services.AddGraphQLServer()
                 .AddQueryType<Query>()
-                .AddMutationType<Mutation>();
+                .AddMutationType<Mutation>()
+                .AddSubscriptionType<Subscription>();
+
+            services.AddInMemorySubscriptions();
 
            /* services.AddControllers();
             services.AddSwaggerGen(c =>
@@ -54,6 +58,8 @@ namespace GraphQLAPIDemo
           //  app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            app.UseWebSockets();
 
            // app.UseAuthorization();
 
