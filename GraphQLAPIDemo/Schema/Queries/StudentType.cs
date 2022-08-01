@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HotChocolate;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -13,7 +14,7 @@ namespace GraphQLAPIDemo.Schema.Queries
 
         public string LastName { get; set; }
 
-       // [GraphQLName("gpa")]
+        [GraphQLName("gpa")]
         public double GPA { get; set; }
     }
 }
