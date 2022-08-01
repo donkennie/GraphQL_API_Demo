@@ -33,7 +33,6 @@ C:\Users\owner\Documents\KennyProjects\GraphQLAPIDemo\GraphQLAPIDemo\bin\Debug\n
 C:\Users\owner\Documents\KennyProjects\GraphQLAPIDemo\GraphQLAPIDemo\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\owner\Documents\KennyProjects\GraphQLAPIDemo\GraphQLAPIDemo\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\owner\Documents\KennyProjects\GraphQLAPIDemo\GraphQLAPIDemo\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\owner\Documents\KennyProjects\GraphQLAPIDemo\GraphQLAPIDemo\obj\Debug\net5.0\GraphQLAPIDemo.csproj.AssemblyReference.cache
 C:\Users\owner\Documents\KennyProjects\GraphQLAPIDemo\GraphQLAPIDemo\obj\Debug\net5.0\GraphQLAPIDemo.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\owner\Documents\KennyProjects\GraphQLAPIDemo\GraphQLAPIDemo\obj\Debug\net5.0\GraphQLAPIDemo.AssemblyInfoInputs.cache
 C:\Users\owner\Documents\KennyProjects\GraphQLAPIDemo\GraphQLAPIDemo\obj\Debug\net5.0\GraphQLAPIDemo.AssemblyInfo.cs
