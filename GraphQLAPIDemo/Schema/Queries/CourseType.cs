@@ -1,4 +1,5 @@
-﻿using HotChocolate;
+﻿using GraphQLAPIDemo.Models;
+using HotChocolate;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,13 +7,6 @@ using System.Threading.Tasks;
 
 namespace GraphQLAPIDemo.Schema.Queries
 {
-
-    public enum Subject
-    {
-        Mathematics,
-        Science,
-        History
-    }
 
     public class CourseType
     {
